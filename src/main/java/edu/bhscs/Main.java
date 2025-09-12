@@ -1,7 +1,7 @@
 // Rebecca Ji
 // P2
 // Zero-Hero
-// 9/12/
+// 9/12/2025
 
 /*
  * DESCRIPTION: Whatever Mr.Reiber says
@@ -17,6 +17,7 @@ class Main{
   public static void main(String[] args){
     System.out.println("---------------------");
     System.out.println("!!! PROGRAM START !!!");
+    System.out.println("");
     System.out.println("hello");
     System.out.println("!!! PROGRAM END !!!");
     System.out.println("---------------------");
