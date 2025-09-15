@@ -1,29 +1,32 @@
 // Rebecca Ji
-// P2
+// P1
 // Zero-Hero
-// 9/12/2025
+// 9/15/2025
 
 /*
- * DESCRIPTION: Whatever Mr.Reiber says
- * INPUT: We don't know about input yet
- * OUTPUT: Some cool works in the comand line terminal  thing
- * EDGE CASE: They are all edge cases at the moment
+ * DESCRIPTION: Finding something interesting in this code
+ * INPUT: We don't know about the input yet
+ * OUTPUT: Some cool words in the command lines terminal thing
+ * EDGE CASE: they are all edge cases
  */
 
 package edu.bhscs;
 
 class Main{
 
-  public static void main(String[] args){
-    System.out.println("---------------------");
-    System.out.println("!!! PROGRAM START !!!");
-    System.out.println("");
-    System.out.println("");
-    System.out.println("");
-    System.out.println("hello");
-    System.out.println("!!! PROGRAM END !!!");
-    System.out.println("---------------------");
+  public static final char A = 'a';
+  public static void main (String[] args){
 
+    int someNumber = 67;
+    String fruit = " mango";
+    System.out.println("I have " + A + fruit);
+    System.out.println(A + someNumber + fruit);
+    System.out.println(A + A + someNumber);
+    System.out.println();
+    System.out.println("this is neet");
+    System.out.println();
+    System.out.println();
+    System.out.println("OK I am done");
 
 
   }
