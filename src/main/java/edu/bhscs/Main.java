@@ -13,7 +13,8 @@
 package edu.bhscs;
 
 class Main{
-
+  //this is an example of a 'char' constant
+  //because it is global, it should be in capital letters
   public static final char A = 'a';
   public static void main (String[] args){
 
