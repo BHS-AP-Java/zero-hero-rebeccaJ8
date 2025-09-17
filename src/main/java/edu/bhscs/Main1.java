@@ -4,10 +4,8 @@
 // 9/15/2025
 
 /*
- * DESCRIPTION: Finding something interesting in this code
- * INPUT: We don't know about the input yet
- * OUTPUT: Some cool words in the command lines terminal thing
- * EDGE CASE: they are all edge cases
+ * DESCRIPTION: Finding something interesting in this code INPUT: We don't know about the input yet
+ * OUTPUT: Some cool words in the command lines terminal thing EDGE CASE: they are all edge cases
  */
 
 package edu.bhscs;
