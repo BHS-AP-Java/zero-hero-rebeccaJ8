@@ -24,10 +24,6 @@ public class Main2 {
     Awesome linda = new Awesome("linda");
     Awesome ronda = new Awesome("hi Ronda");
     System.out.println(steve.getName());
-
-    Greatness rebecca = new Greatness("Rebecca");
-    Greatness grace = new Greatness("Grace");
-    System.out.println(rebecca.getName1());
   }
 
   public static String pushup(String food) {
