@@ -24,7 +24,14 @@ public class Main2 {
     Awesome linda = new Awesome("linda");
     Awesome ronda = new Awesome("hi Ronda");
     System.out.println(steve.getName());
+
+    steve.learnSomething("this is also awesome");
+    System.out.println(steve.getKnowledge());
+
+    System.out.println(ronda.getKnowledge());
   }
+
+
 
   public static String pushup(String food) {
     return "sweat " + food;

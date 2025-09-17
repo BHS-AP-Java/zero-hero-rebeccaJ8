@@ -3,6 +3,8 @@ package edu.bhscs;
 public class Awesome {
   // fields/properties/This is the stuff tht Awesome HAS!!!!
   String name;
+  String knowledge;
+
 
   // we need to CONSTRUCT something AWESOME!!!!
   public Awesome(String name) {
@@ -13,12 +15,13 @@ public class Awesome {
   String getName() {
     return this.name;
   }
-  public Greatness(String name1){
-    System.out.println("I am the Greatest! " + name1);
-    this.name1 = name1
+  void learnSomething(String knowledge) {
+    this.knowledge = knowledge;
   }
-  String getName1(){
-    return this.name1;
+  String getKnowledge(){
+    return this.knowledge;
   }
-}
+
+  }
+
 
