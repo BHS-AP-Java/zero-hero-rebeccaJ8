@@ -5,7 +5,6 @@ public class Awesome {
   String name;
   String knowledge;
 
-
   // we need to CONSTRUCT something AWESOME!!!!
   public Awesome(String name) {
     System.out.println("I AM THE MOST AWESOME " + name);
@@ -15,13 +14,12 @@ public class Awesome {
   String getName() {
     return this.name;
   }
+
   void learnSomething(String knowledge) {
     this.knowledge = knowledge;
   }
-  String getKnowledge(){
+
+  String getKnowledge() {
     return this.knowledge;
   }
-
-  }
-
-
+}

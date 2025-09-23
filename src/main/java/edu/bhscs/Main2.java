@@ -11,29 +11,15 @@ package edu.bhscs;
 
 public class Main2 {
 
-  public static float NAME_OF_THIS_FLOAT = 69.42f;
-  public static char A = 'a';
-
   public static void main(String[] args) {
-    System.out.println(A);
-    System.out.println(pushup("Garlic"));
-    pushup("garlic");
+
+    String theGoodStuff = "chocoloate";
 
     Awesome steve = new Awesome("Steve");
-    Awesome sue = new Awesome("Sue");
-    Awesome linda = new Awesome("linda");
-    Awesome ronda = new Awesome("hi Ronda");
-    System.out.println(steve.getName());
 
-    steve.learnSomething("this is also awesome");
-    System.out.println(steve.getKnowledge());
-
-    System.out.println(ronda.getKnowledge());
-  }
-
-
-
-  public static String pushup(String food) {
-    return "sweat " + food;
+    new Cake(theGoodStuff);
+    new Cake("blueberry");
+    int obj = new WEIGHT();
+    obj.weightofcake();
   }
 }
