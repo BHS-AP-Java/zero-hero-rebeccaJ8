@@ -1,3 +1,12 @@
+// Rebecca Ji
+// P2
+// AWSOME
+// 9/29/2025
+
+/*
+ * DESCRIPTION: AWESOME
+ */
+
 package edu.bhscs;
 
 public class Awesome {

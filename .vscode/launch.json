@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "scannercod",
+      "request": "launch",
+      "mainClass": "edu.bhscs.scannercod",
+      "projectName": "ap-java-starter"
+    },
+    {
+      "type": "java",
       "name": "Main2",
       "request": "launch",
       "mainClass": "edu.bhscs.Main2",
