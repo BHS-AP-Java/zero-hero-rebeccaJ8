@@ -12,37 +12,25 @@
 
 package edu.bhscs;
 
-import java.util.Scanner;
 
 public class Main {
-  // fields or properties: (something like hair)variable that modifies the instance
-  // constructor: something that makes an instance of the class
-  // methods: the instructions (recipe)
+  public static void main(String[]args){
 
-  // Example method to fix the error
+    Player user = new Player("rebecca");
+    String name = user.giveAnswer("What is your name?");
+    String age = user.giveAnswer("how old are you?");
 
-  public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
+    //Constructor
+    Cake cake = new Cake();
 
-    // create the instance bakery
-    Bakery myBakery = new Bakery();
-    // initialize baker
-    Baker myBaker = new Baker("Ashaalmital");
-    myBaker.getMood();
-    // initialize ingredients
-    Flour flour = new Flour(5, 0);
-    // First check the flour
-    myBaker.checkFlour(flour);
-    myBaker.getMood();
-    int myProceeds = myBakery.sold();
-    myProceeds += myBakery.sold();
-    System.out.println("The bakery made $" + myProceeds);
-    // Donate the money to PTSA
-    System.out.println("*The money is automatically being donated to PTSA*");
-    PTSA myPTSA = new PTSA();
-    myPTSA.donate(myProceeds);
-    System.out.println("The PTSA now has $" + myPTSA.totalDonations);
+    //PROPERTIES
+    cake.color = "blue";
+    cake.ingredient = "chocolate";
 
-    scanner.close();
+
+    new Cake().draw(name,age);
+
   }
 }
+
+

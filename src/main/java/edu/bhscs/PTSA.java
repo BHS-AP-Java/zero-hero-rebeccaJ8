@@ -5,7 +5,7 @@
 
 /*
  * DESCRIPTION: ptsa that takes all the money
-  */
+ */
 
 package edu.bhscs;
 
@@ -20,4 +20,3 @@ public class PTSA {
     this.totalDonations += proceeds;
   }
 }
-

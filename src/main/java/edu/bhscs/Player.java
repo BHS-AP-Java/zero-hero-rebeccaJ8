@@ -12,23 +12,22 @@ package edu.bhscs;
 import java.util.Scanner;
 
 public class Player {
-  System.println("You are the player, you will control the baker and the customer")
+
+  // properties
   Scanner scanner = new Scanner(System.in);
   String name;
 
+  // constructor
+
   public Player(String name) {
     this.name = name;
+    this.scanner = new Scanner(System.in);
   }
 
-  public void answerQuestions() {
-    System.out.println("What is your name?");
-    String name = scanner.nextLine();
-    System.out.println("Hello, " + name + ".");
-  }
-
-  public String giveAnswer(String question){
-
-    return "yes";
-
+  // methods
+  public String giveAnswer(String question) {
+    System.out.println(question);
+    String answer = scanner.nextLine();
+    return answer;
   }
 }

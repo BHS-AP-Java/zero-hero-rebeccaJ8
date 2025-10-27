@@ -15,5 +15,12 @@ public class Customer {
 
   public void buys(int cost) {
     this.money -= cost;
-  }   
+  }
+
+  public void takeCake(Cake bakeCake) {}
+
+  public int pay(int price) {
+    this.money -= price;
+    return price;
+  }
 }
