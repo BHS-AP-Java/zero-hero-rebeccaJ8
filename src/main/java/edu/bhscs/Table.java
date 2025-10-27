@@ -12,12 +12,16 @@ public class Table {
 
   public void draw(){
 
+    for (int j=0; j<16; j++){
+      System.out.print("=");
+
+    }
+    System.out.println();
     for (int i =0; i<8; i++){
       System.out.println("|        | ");
-    for (int j=0; j<8; j++){
-      System.out.print("=");
+
     }
 
   }
 
-}}
+}
