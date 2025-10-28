@@ -10,18 +10,16 @@ public class Table {
     this.price = price;
   }
 
-  public void draw(){
+  public void draw() {
 
-    for (int j=0; j<16; j++){
+    for (int j = 0; j < 20; j++) {
       System.out.print("=");
-
     }
     System.out.println();
-    for (int i =0; i<8; i++){
-      System.out.println("|        | ");
+    for (int i = 0; i < 8; i++) {
+      System.out.println("|                  |");
+
 
     }
-
   }
-
 }
